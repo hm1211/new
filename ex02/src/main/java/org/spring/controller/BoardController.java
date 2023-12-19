@@ -20,6 +20,7 @@ import lombok.extern.log4j.Log4j;
 @RequestMapping("/board/*")
 @AllArgsConstructor 
 @Log4j
+// 주석추가
 public class BoardController {
 	private final BoardService boardService;
 	
